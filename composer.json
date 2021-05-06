@@ -1,0 +1,17 @@
+{
+    "name": "fredericbruening/design-patterns-in-php",
+    "description": "Design patterns in php examples",
+    "authors": [
+        {
+            "name": "FredericBruening",
+            "email": "contact@fredesk.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AdapterPattern\\": "adapter-pattern",
+            "TemplateMethodPattern\\": "template-method-pattern"
+        }
+    }
+}
