@@ -7,11 +7,14 @@
             "email": "contact@fredesk.com"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
             "AdapterPattern\\": "adapter-pattern",
-            "TemplateMethodPattern\\": "template-method-pattern"
+            "TemplateMethodPattern\\": "template-method-pattern",
+            "SpecificationPattern\\": "specification-pattern"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
